@@ -8,14 +8,18 @@
     "scheme": "moneyradar",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/logo.png"
+      "icon": "./assets/logo.png",
+      "bundleIdentifier": "com.shemab23.moneyradar",
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
+      "package": "com.shemab23.moneyradar",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#7B9A6D",
+        "foregroundImage": "./assets/logo.png"
       },
       "predictiveBackGestureEnabled": false
     },
@@ -28,15 +32,21 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#7B9A6D",
+          "image": "./assets/logo.png",
+          "imageWidth": 120
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5cd4e842-0103-4194-94a6-0f1f151ace72"
+      }
     }
   }
 }
