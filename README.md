@@ -1,10 +1,3 @@
-# README.md
-
-Drop this at `C:\Users\Shema\Desktop\money-radar\README.md`. It references your existing logo at `assets/logo.png`.
-
----
-
-```md
 <p align="center">
   <img src="assets/logo.png" alt="Money Radar" width="120" />
 </p>
